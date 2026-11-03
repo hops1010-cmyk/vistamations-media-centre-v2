@@ -4,6 +4,8 @@ Pete's explicit direction: the name is **VISTAMATIONS**. A cross between sterile
 
 ## Common design language
 
+Later specific direction: Pete supplied Teen Blast (pastel Y2K/lavender chrome) and Medieval (Tudor oak/iron/gold) stack artwork and explicitly entered Design. These specific material palettes take precedence over the earlier generic dark-shell interpretation for those skins. See [skin design boards and alignment](design/skins/DESIGN.md). Skins remain independent of Merlin/Elite/Ultimate series; shared operators and functionality are preserved.
+
 VISTAMATIONS is the wordmark, exactly spelled and uppercase in the primary identity. Media Centre names the product; “Created by Vistamations Media Division” is the credit line. Do not replace the brand with a generic futuristic label.
 
 Proposed base: near-black galleries, immaculate spacing, crisp graphite panels, fine luminous edges, precise typography and small pools of light. Enterprise accents use restrained champagne/platinum with cool cyan reserved for instrumentation. Readability must not depend on ultra-thin strokes. Luxury comes from composition, materials and restraint; technical sophistication comes from connected structures, meaningful response and precision. Avoid visual clutter and excessive bloom.

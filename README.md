@@ -14,6 +14,7 @@ Design steward: Cody. Theme/skin design handoff: Stef; no message has been sent 
 - [Bento, storage indexing, Git restores and cross-platform maintenance](STORAGE-AND-REPO-DESIGN.md)
 - [Skin-matched motion plugin, source snippets and Sisyphus motif](MOTION-PLUGIN-DESIGN.md)
 - [VISTAMATIONS brand, dark luxury/atomic visual direction and vector prompts](VISTAMATIONS-VISUAL-DIRECTION.md)
+- [Teen Blast and Medieval — supplied artwork, controls and stack alignment](design/skins/DESIGN.md)
 
 The full Media Centre remains in Design. A separately authorized [retro master-amp overlay preview](preview/retro-amp/README.md) is built: GSAP volume/balance knobs and power switch on Pete's supplied faceplate, available locally on port 3216 using `npm run preview:amp`. Audio-engine integration remains pending. Public repository: https://github.com/hops1010-cmyk/vistamations-media-centre-v2. No production deployment was created. Intended app URL: https://www.vistamations.com/svg (not deployed by this work). Preserve existing localhost services, especially port 3000.
 
