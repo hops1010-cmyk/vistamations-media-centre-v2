@@ -1,0 +1,3 @@
+# Media Centre v2 scope
+
+Fresh v2. Follow Pete's current instructions; do not inherit v1 scope or silently reuse its files. Read DESIGN.md and ARCHITECTURE.md. Current authorization: design documents and creation/population of this public GitHub repository. Implementation and deployment require their respective phase authorization. Protect C:/kubernate/docker02-base/index.html and existing localhost:3000. No secrets in artifacts, public source, logs or client bundles. No separate media-player repository. Stef's theme/skin repository is an external design-package boundary, not a repository provisioned here. Do not confuse app project IDs with Tower session/project numbers.

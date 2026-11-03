@@ -1,0 +1,15 @@
+# Private/runtime artifacts
+.env
+.env.*
+!.env.example
+.dev.vars*
+.vault/
+*.key
+*.pem
+node_modules/
+.next/
+.open-next/
+.wrangler/
+test-output/
+# Raw upstream release-body research stays local
+REPOSITORY-EVIDENCE*.json

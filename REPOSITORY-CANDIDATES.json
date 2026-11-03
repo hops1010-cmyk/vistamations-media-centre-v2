@@ -1,0 +1,280 @@
+{
+  "notice": "Research snapshots, not selected dependencies. Stars and API license labels are time-specific indicators, not adoption or license compatibility decisions. See design documents for source/license assessment.",
+  "snapshots": [
+    {
+      "source": "REPOSITORY-EVIDENCE.json",
+      "fetched_at": "2026-11-03T15:54:05.193Z",
+      "method": "Unauthenticated live GitHub REST API; no credentials read",
+      "repositories": [
+        {
+          "requested_repo": "OpenCut-app/OpenCut",
+          "repo": "OpenCut-app/OpenCut",
+          "url": "https://github.com/OpenCut-app/OpenCut",
+          "description": "The open-source CapCut alternative",
+          "stars": 97226,
+          "archived": false,
+          "license": "MIT"
+        },
+        {
+          "requested_repo": "ncounterspecialist/twick",
+          "repo": "ncounterspecialist/twick",
+          "url": "https://github.com/ncounterspecialist/twick",
+          "description": "AI-powered video editor SDK built with React. Features canvas timeline, drag-and-drop editing, AI captions, and serverless MP4 export. Perfect for building custom video apps.",
+          "stars": 546,
+          "archived": false,
+          "license": "NOASSERTION"
+        },
+        {
+          "requested_repo": "designcombo/react-video-editor",
+          "repo": "openvideodev/react-video-editor",
+          "url": "https://github.com/openvideodev/react-video-editor",
+          "description": "Online react video editor using remotion. Capcut and canva clone.",
+          "stars": 1829,
+          "archived": false,
+          "license": "NOASSERTION"
+        },
+        {
+          "requested_repo": "designcombo/combo"
+        },
+        {
+          "requested_repo": "Vanilagy/mediabunny",
+          "repo": "Vanilagy/mediabunny",
+          "url": "https://github.com/Vanilagy/mediabunny",
+          "description": "Pure TypeScript media toolkit for reading, writing, and converting video and audio files, directly in the browser.",
+          "stars": 7425,
+          "archived": false,
+          "license": "MPL-2.0"
+        },
+        {
+          "requested_repo": "SVG-Edit/svgedit",
+          "repo": "SVG-Edit/svgedit",
+          "url": "https://github.com/SVG-Edit/svgedit",
+          "description": "Powerful SVG-Editor for your browser",
+          "stars": 7894,
+          "archived": false,
+          "license": "MIT"
+        },
+        {
+          "requested_repo": "paperjs/paper.js",
+          "repo": "paperjs/paper.js",
+          "url": "https://github.com/paperjs/paper.js",
+          "description": "The Swiss Army Knife of Vector Graphics Scripting – Scriptographer ported to JavaScript and the browser, using HTML5 Canvas. Created by @lehni & @puckey",
+          "stars": 15184,
+          "archived": false,
+          "license": "NOASSERTION"
+        },
+        {
+          "requested_repo": "theatre-js/theatre",
+          "repo": "theatre-js/theatre",
+          "url": "https://github.com/theatre-js/theatre",
+          "description": "Motion design editor for the web",
+          "stars": 12848,
+          "archived": false,
+          "license": "Apache-2.0"
+        },
+        {
+          "requested_repo": "motion-canvas/motion-canvas",
+          "repo": "motion-canvas/motion-canvas",
+          "url": "https://github.com/motion-canvas/motion-canvas",
+          "description": "Visualize Your Ideas With Code",
+          "stars": 19664,
+          "archived": false,
+          "license": "MIT"
+        },
+        {
+          "requested_repo": "remotion-dev/remotion",
+          "repo": "remotion-dev/remotion",
+          "url": "https://github.com/remotion-dev/remotion",
+          "description": "🎥      Make videos programmatically with React",
+          "stars": 70363,
+          "archived": false,
+          "license": "NOASSERTION"
+        },
+        {
+          "requested_repo": "katspaugh/wavesurfer.js",
+          "repo": "katspaugh/wavesurfer.js",
+          "url": "https://github.com/katspaugh/wavesurfer.js",
+          "description": "Audio waveform player",
+          "stars": 10460,
+          "archived": false,
+          "license": "BSD-3-Clause"
+        },
+        {
+          "requested_repo": "naomiaro/waveform-playlist",
+          "repo": "naomiaro/waveform-playlist",
+          "url": "https://github.com/naomiaro/waveform-playlist",
+          "description": "Multitrack Web Audio editor and player with canvas waveform preview. Set cues, fades and shift multiple tracks in time. Record audio tracks or provide audio annotations. Export your mix to AudioBuffer or WAV! Add effects from Tone.js. Project inspired by Audacity.",
+          "stars": 1687,
+          "archived": false,
+          "license": "MIT"
+        },
+        {
+          "requested_repo": "butterchurnVisualizer/butterchurn"
+        },
+        {
+          "requested_repo": "visioncortex/vtracer",
+          "repo": "visioncortex/vtracer",
+          "url": "https://github.com/visioncortex/vtracer",
+          "description": "Raster to Vector Graphics Converter",
+          "stars": 7451,
+          "archived": false,
+          "license": "MIT"
+        },
+        {
+          "requested_repo": "xzdarcy/react-timeline-editor",
+          "repo": "xzdarcy/react-timeline-editor",
+          "url": "https://github.com/xzdarcy/react-timeline-editor",
+          "description": "react-timeline-editor is a react component used to quickly build a timeline animation editor.",
+          "stars": 801,
+          "archived": false,
+          "license": "MIT"
+        },
+        {
+          "requested_repo": "daybrush/moveable",
+          "repo": "daybrush/moveable",
+          "url": "https://github.com/daybrush/moveable",
+          "description": "Moveable! Draggable! Resizable! Scalable! Rotatable! Warpable! Pinchable! Groupable! Snappable!",
+          "stars": 10765,
+          "archived": false,
+          "license": "MIT"
+        },
+        {
+          "requested_repo": "pmndrs/leva",
+          "repo": "pmndrs/leva",
+          "url": "https://github.com/pmndrs/leva",
+          "description": "🌋 React-first components GUI",
+          "stars": 6271,
+          "archived": false,
+          "license": "MIT"
+        },
+        {
+          "requested_repo": "pixijs/filters",
+          "repo": "pixijs/filters",
+          "url": "https://github.com/pixijs/filters",
+          "description": "Collection of community-authored custom display filters for PixiJS",
+          "stars": 1143,
+          "archived": false,
+          "license": "MIT"
+        },
+        {
+          "requested_repo": "donmccurdy/three-ascii"
+        },
+        {
+          "requested_repo": "AykutSarac/jsoncrack.com",
+          "repo": "AykutSarac/jsoncrack.com",
+          "url": "https://github.com/AykutSarac/jsoncrack.com",
+          "description": "✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML and CSV into interactive graphs.",
+          "stars": 44588,
+          "archived": false,
+          "license": "Apache-2.0"
+        },
+        {
+          "requested_repo": "penpot/penpot",
+          "repo": "penpot/penpot",
+          "url": "https://github.com/penpot/penpot",
+          "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
+          "stars": 62016,
+          "archived": false,
+          "license": "MPL-2.0"
+        },
+        {
+          "requested_repo": "svgdotjs/svg.js",
+          "repo": "svgdotjs/svg.js",
+          "url": "https://github.com/svgdotjs/svg.js",
+          "description": "The lightweight library for manipulating and animating SVG",
+          "stars": 11852,
+          "archived": false,
+          "license": "NOASSERTION"
+        }
+      ]
+    },
+    {
+      "source": "REPOSITORY-EVIDENCE-EXTRA.json",
+      "fetched_at": "2026-11-03T15:54:48.711Z",
+      "method": "Unauthenticated live GitHub REST API; no credentials read",
+      "repositories": [
+        {
+          "requested_repo": "jberg/butterchurn",
+          "repo": "jberg/butterchurn",
+          "url": "https://github.com/jberg/butterchurn",
+          "description": "Butterchurn is a WebGL implementation of the Milkdrop Visualizer",
+          "stars": 1980,
+          "archived": false,
+          "license": "MIT"
+        },
+        {
+          "requested_repo": "muxinc/media-chrome",
+          "repo": "muxinc/media-chrome",
+          "url": "https://github.com/muxinc/media-chrome",
+          "description": "Custom elements (web components) for making audio and video player controls that look great in your website or app.",
+          "stars": 2766,
+          "archived": false,
+          "license": "MIT"
+        },
+        {
+          "requested_repo": "videojs/video.js",
+          "repo": "videojs/video.js",
+          "url": "https://github.com/videojs/video.js",
+          "description": "Video.js v10 - open source media player framework for HTML and React.",
+          "stars": 40065,
+          "archived": false,
+          "license": "NOASSERTION"
+        },
+        {
+          "requested_repo": "webaudiomodules/api",
+          "repo": "webaudiomodules/api",
+          "url": "https://github.com/webaudiomodules/api",
+          "description": "Web Audio Modules (WAMs) API",
+          "stars": 207,
+          "archived": false,
+          "license": null
+        },
+        {
+          "requested_repo": "webaudiomodules/sdk",
+          "repo": "webaudiomodules/sdk",
+          "url": "https://github.com/webaudiomodules/sdk",
+          "description": null,
+          "stars": 24,
+          "archived": false,
+          "license": null
+        },
+        {
+          "requested_repo": "jnsahaj/tweakcn",
+          "repo": "jnsahaj/tweakcn",
+          "url": "https://github.com/jnsahaj/tweakcn",
+          "description": "A visual no-code theme editor for shadcn/ui components",
+          "stars": 10513,
+          "archived": false,
+          "license": "Apache-2.0"
+        },
+        {
+          "requested_repo": "amzn/style-dictionary",
+          "repo": "style-dictionary/style-dictionary",
+          "url": "https://github.com/style-dictionary/style-dictionary",
+          "description": "A build system for creating cross-platform styles.",
+          "stars": 4875,
+          "archived": false,
+          "license": "Apache-2.0"
+        },
+        {
+          "requested_repo": "methodofaction/Method-Draw",
+          "repo": "methodofaction/Method-Draw",
+          "url": "https://github.com/methodofaction/Method-Draw",
+          "description": "Method Draw, the SVG Editor for Method of Action",
+          "stars": 3023,
+          "archived": false,
+          "license": "MIT"
+        },
+        {
+          "requested_repo": "MrUjjwalG/movi-player",
+          "repo": "MrUjjwalG/movi-player",
+          "url": "https://github.com/MrUjjwalG/movi-player",
+          "description": "Open-source HTML5 video player, an alternative to Video.js, Shaka Player, JW Player and Plyr that needs no transcoding server: MKV, HEVC/H.265, AV1 and 4K HDR files play as they are, right in the browser (FFmpeg WASM + WebCodecs). HLS/DASH, multi-audio, subtitles. Web component, Chrome/Firefox and VS Code extensions.",
+          "stars": 95,
+          "archived": false,
+          "license": "Apache-2.0"
+        }
+      ]
+    }
+  ]
+}
