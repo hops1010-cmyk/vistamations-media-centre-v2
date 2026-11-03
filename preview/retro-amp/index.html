@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>VISTAMATIONS · Retro master amp</title>
+    <link rel="stylesheet" href="amp.css" />
+    <script src="/vendor/gsap.min.js" defer></script>
+    <script src="amp.js" type="module"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <span class="eyebrow">VISTAMATIONS MEDIA CENTRE / V2</span
+        ><span class="edition">RETRO SERIES · 1973</span>
+      </header>
+      <section class="amp" aria-label="Retro stereo master amplifier">
+        <img
+          class="faceplate"
+          src="assets/faceplate.png"
+          width="1536"
+          height="1024"
+          alt="1970s brushed aluminium amplifier faceplate"
+        />
+        <div class="wordmark">
+          VISTAMATIONS<span>STEREO MASTER AMPLIFIER</span>
+        </div>
+        <div class="model">VC · 73<span>SOLID STATE</span></div>
+        <div id="controls"></div>
+        <div class="legend volume-legend">
+          <span>MASTER VOLUME</span><output id="volume-readout">35%</output>
+        </div>
+        <div class="legend balance-legend">
+          <span>STEREO BALANCE</span
+          ><output id="balance-readout">CENTRE</output>
+        </div>
+        <div class="legend power-legend">
+          <span>POWER</span><output id="power-readout">OFF</output>
+        </div>
+        <span class="lamp" aria-hidden="true"></span>
+        <span class="engraving">Created by Vistamations Media Division</span>
+      </section>
+      <footer>
+        <span
+          >Drag up/down · Arrow keys · Shift for fine adjustment · Double-click
+          balance to centre</span
+        ><span id="status" role="status">OUTPUT OFF · CONTROL PREVIEW</span>
+      </footer>
+      <p class="note">
+        Interactive GSAP overlays. Audio engine connection pending; these
+        controls do not change Windows sound.
+      </p>
+    </main>
+  </body>
+</html>

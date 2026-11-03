@@ -1,0 +1,58 @@
+{
+  "asset": "retro-70s-power-amp",
+  "version": 1,
+  "coordinate_system": "Logical pixels; origin top-left; x rightward, y downward",
+  "design_canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "status": "Approximate visible bounds measured from the generated 1536 x 1024 preview. Check exact border pixels before final control alignment. Virtual UI pixels, not physical measurements.",
+  "faceplate": {
+    "x": 34,
+    "y": 286,
+    "width": 1467,
+    "height": 548
+  },
+  "controls": [
+    {
+      "id": "dial-left",
+      "shape": "circle",
+      "center_x": 601,
+      "center_y": 561,
+      "diameter": 272,
+      "bounds": {
+        "x": 466,
+        "y": 423,
+        "width": 270,
+        "height": 277
+      }
+    },
+    {
+      "id": "dial-right",
+      "shape": "circle",
+      "center_x": 1005,
+      "center_y": 561,
+      "diameter": 272,
+      "bounds": {
+        "x": 872,
+        "y": 423,
+        "width": 266,
+        "height": 277
+      }
+    },
+    {
+      "id": "power-switch",
+      "shape": "rounded-rectangle",
+      "center_x": 1326,
+      "center_y": 561,
+      "bounds": {
+        "x": 1300,
+        "y": 505,
+        "width": 53,
+        "height": 112
+      }
+    }
+  ],
+  "skin_requirements": "Thick 1970s brushed-silver amplifier; exactly two empty circular outlines and one empty switch outline. Fine 1-2 logical-pixel borders. No actual dials or switch hardware.",
+  "agent_instructions": "Use the generated image as background; overlay controls separately. Preserve 3:2 aspect ratio. Scale x/y/width/height by renderedWidth/1536 and account for letterbox offsets. Bounds are approximate; verify border pixels before final integration. Dial outlines have a slight oval distortion; use bounds for alignment."
+}

@@ -14,6 +14,6 @@ Design steward: Cody. Theme/skin design handoff: Stef; no message has been sent 
 - [Skin-matched motion plugin, source snippets and Sisyphus motif](MOTION-PLUGIN-DESIGN.md)
 - [VISTAMATIONS brand, dark luxury/atomic visual direction and vector prompts](VISTAMATIONS-VISUAL-DIRECTION.md)
 
-These are design documents, not an implemented app. Public design repository: https://github.com/hops1010-cmyk/vistamations-media-centre-v2. No application infrastructure, authentication, plugin installation or production deployment was created. Intended URL: https://www.vistamations.com/svg (not deployed by this work). Port unassigned; preserve existing localhost services, especially port 3000.
+The full Media Centre remains in Design. A separately authorized [retro master-amp overlay preview](preview/retro-amp/README.md) is built: GSAP volume/balance knobs and power switch on Pete's supplied faceplate, available locally on port 3216 using `npm run preview:amp`. Audio-engine integration remains pending. Public repository: https://github.com/hops1010-cmyk/vistamations-media-centre-v2. No production deployment was created. Intended app URL: https://www.vistamations.com/svg (not deployed by this work). Preserve existing localhost services, especially port 3000.
 
 The active Tower session/project is distinct from an app user's Media Centre project. No completed Tower project number or restore point is allocated by these documents.
