@@ -21,6 +21,10 @@ Open http://localhost:3216/. Set `AMP_PREVIEW_PORT` to change the loopback port.
 
 Positions come from `assets/control-layout.json`, using its exact measured oval bounds. Percentage positioning inside the image's preserved 3:2 container scales the overlay without letterbox offsets. Image pixels are unchanged; knobs, ticks, engraving, lamp and rocker are separate HTML/CSS/SVG overlays. Knob rotation and switch/lamp transitions use [GSAP's documented tween API](https://gsap.com/docs/v3/GSAP/gsap.to%28%29/).
 
+## Component performance and todos
+
+Eight selectable slots now appear vertically on the faceplate. Each opens a component panel with a manual /100 assessment, explicit good/attention condition and its own todo checklist. Audio clipping can override the audio slot red through an adapter. Unconnected readings remain unknown; no benchmarks or live service checks are fabricated. See the [operator manual](MANUAL.md) for slot mapping, scoring boundaries, storage and the `retroAmpHealth` integration API. The same manual is available from the preview's expandable Operator manual section.
+
 ## Audio-engine integration
 
 Listen on `.amp` or its ancestor for the bubbling `ampchange` event. `event.detail` is `{volume, balance, power}`. Use `window.retroAmp.getState()` for a snapshot or `window.retroAmp.setState({volume: 40, balance: 0, power: true})` to update controls. No events contain credentials and no preferences are stored or sent anywhere. When integrating, replace the preview-only status and connect state to the reviewed master audio chain; balance must attenuate channels independently rather than pan/mix them.

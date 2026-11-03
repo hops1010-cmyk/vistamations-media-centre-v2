@@ -4,6 +4,200 @@
   background: #141311;
   color: #d9d1c4;
 }
+.health-bank {
+  position: absolute;
+  left: 9%;
+  top: 44%;
+  width: 17%;
+  color: #25251f;
+}
+.health-bank h2 {
+  font-size: 0.65cqw;
+  letter-spacing: 0.11em;
+  margin: 0 0 0.7cqw;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+#health-slots {
+  display: grid;
+  gap: 0.45cqw;
+}
+.health-slot {
+  display: grid;
+  grid-template-columns: 1fr 2.4cqw 1.7cqw 0.8cqw;
+  align-items: center;
+  gap: 0.4cqw;
+  width: 100%;
+  padding: 0.27cqw 0.3cqw;
+  border: 1px solid #625a4980;
+  border-radius: 0.25cqw;
+  background: #423f351c;
+  color: #25251f;
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.65cqw;
+  min-height: 1.4cqw;
+}
+.health-slot[aria-pressed="true"] {
+  outline: 1px solid #464234;
+  background: #ffffff22;
+}
+.health-slot:focus-visible {
+  outline: 3px solid #176ca4;
+}
+.slot-name {
+  white-space: nowrap;
+}
+.slot-meter {
+  height: 0.48cqw;
+  min-height: 2px;
+  background: #36372d;
+  box-shadow: inset 0 1px 2px #000b;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.slot-meter i {
+  display: block;
+  height: 100%;
+  background: #7a7b70;
+}
+.health-slot[data-status="good"] .slot-meter {
+  box-shadow: 0 0 0.35cqw #396a2e;
+}
+.health-slot[data-status="good"] .slot-meter i {
+  background: #71aa45;
+}
+.health-slot[data-status="attention"] .slot-meter {
+  background: #8f2520;
+  box-shadow: 0 0 0.4cqw #bc332d88;
+}
+.health-slot[data-status="attention"] .slot-meter i {
+  background: #e45b45;
+}
+.slot-todos {
+  text-align: center;
+  font-size: 0.55cqw;
+  color: #62563f;
+}
+.health-slot output {
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  font-size: 0.6cqw;
+}
+.component-panel,
+.manual {
+  border: 1px solid #4a4337;
+  border-radius: 8px;
+  background: #201e19;
+  margin: 20px 8px;
+  padding: 20px;
+  color: #d9d1c4;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.component-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+}
+.component-title h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.component-title span,
+.storage-note {
+  font-size: 12px;
+  color: #b2a58f;
+}
+#performance-form,
+#todo-form {
+  display: flex;
+  align-items: end;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 16px 0;
+}
+.component-panel label {
+  display: grid;
+  gap: 6px;
+}
+.component-panel input,
+.component-panel select,
+.component-panel button {
+  font: inherit;
+  border: 1px solid #746650;
+  border-radius: 4px;
+  padding: 8px;
+  background: #151411;
+  color: #e5dbc9;
+}
+.component-panel button {
+  cursor: pointer;
+}
+.component-panel button:hover {
+  background: #383124;
+}
+.component-panel :focus-visible,
+.manual summary:focus-visible {
+  outline: 2px solid #70bce3;
+  outline-offset: 3px;
+}
+#performance-score {
+  width: 130px;
+}
+#todo-text {
+  flex: 1;
+  min-width: 180px;
+}
+#todo-list {
+  padding: 0;
+  list-style: none;
+}
+#todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px 0;
+  border-bottom: 1px solid #453e31;
+}
+#todo-list label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow-wrap: anywhere;
+}
+#todo-list input:checked + span {
+  text-decoration: line-through;
+  color: #9a9488;
+}
+.manual summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.manual a {
+  color: #d7bf85;
+}
+@media (max-width: 650px) {
+  .component-panel,
+  .manual {
+    margin: 14px 0;
+    padding: 14px;
+  }
+  .component-title {
+    align-items: start;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .health-slot {
+    font-size: 0.72cqw;
+  }
+  .health-bank {
+    width: 18%;
+  }
+}
 * {
   box-sizing: border-box;
 }

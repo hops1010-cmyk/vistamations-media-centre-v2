@@ -7,6 +7,8 @@ const files = new Map([
   ["/", new URL("index.html", root)],
   ["/amp.css", new URL("amp.css", root)],
   ["/amp.js", new URL("amp.js", root)],
+  ["/health.js", new URL("health.js", root)],
+  ["/manual.md", new URL("MANUAL.md", root)],
   ["/assets/faceplate.png", new URL("assets/faceplate.png", root)],
   ["/assets/control-layout.json", new URL("assets/control-layout.json", root)],
   [
@@ -20,6 +22,7 @@ const mime = {
   js: "text/javascript",
   png: "image/png",
   json: "application/json",
+  md: "text/plain; charset=utf-8",
 };
 const port = Number(process.env.AMP_PREVIEW_PORT || 3216);
 http

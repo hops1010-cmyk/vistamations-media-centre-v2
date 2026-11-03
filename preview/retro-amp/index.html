@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="amp.css" />
     <script src="/vendor/gsap.min.js" defer></script>
     <script src="amp.js" type="module"></script>
+    <script src="health.js" type="module"></script>
   </head>
   <body>
     <main>
@@ -27,6 +28,13 @@
         </div>
         <div class="model">VC · 73<span>SOLID STATE</span></div>
         <div id="controls"></div>
+        <section
+          class="health-bank"
+          aria-label="Component performance and todo indicators"
+        >
+          <h2>COMPONENT HEALTH <span>/100</span></h2>
+          <div id="health-slots"></div>
+        </section>
         <div class="legend volume-legend">
           <span>MASTER VOLUME</span><output id="volume-readout">35%</output>
         </div>
@@ -46,6 +54,87 @@
           balance to centre</span
         ><span id="status" role="status">OUTPUT OFF · CONTROL PREVIEW</span>
       </footer>
+      <section class="component-panel" aria-labelledby="component-heading">
+        <div class="component-title">
+          <h2 id="component-heading">Power amp</h2>
+          <span id="reading-origin">Not measured</span>
+        </div>
+        <p id="component-description"></p>
+        <form id="performance-form">
+          <label
+            >Manual performance /100
+            <input
+              id="performance-score"
+              type="number"
+              min="0"
+              max="100"
+              step="1"
+              placeholder="Not measured"
+          /></label>
+          <label
+            >Condition
+            <select id="performance-status">
+              <option value="unknown">Not assessed</option>
+              <option value="good">Good — green</option>
+              <option value="attention">Needs attention — red</option>
+            </select></label
+          >
+          <button type="submit">Save assessment</button>
+          <button id="clear-reading" type="button">Clear reading</button>
+        </form>
+        <p id="performance-detail"></p>
+        <h3>Todos <span id="todo-count"></span></h3>
+        <ul id="todo-list"></ul>
+        <form id="todo-form">
+          <label for="todo-text">Add a todo</label
+          ><input
+            id="todo-text"
+            maxlength="240"
+            required
+            placeholder="What needs doing for this component?"
+          /><button type="submit">Add</button>
+        </form>
+        <p class="storage-note">
+          Assessments and todos are saved in this browser on this origin. No
+          cloud backup or live telemetry is connected.
+        </p>
+      </section>
+      <details class="manual">
+        <summary>Operator manual · indicators, performance and todos</summary>
+        <p>
+          Select one of the eight amplifier slots to inspect its component.
+          Green means assessed good; red means attention or audio clipping. Grey
+          means not assessed. Score is /100, separate from todo completion; no
+          arbitrary pass threshold is applied.
+        </p>
+        <p>
+          Save a manual score and condition, or clear the reading without
+          deleting todos. Source and timestamp distinguish manual entries from
+          telemetry. Add, complete or remove todos per component.
+        </p>
+        <p>
+          Processor includes Modulator (5a) and Diffuser (5b). Slot 6 is Kaggle,
+          slot 7 includes SVG/GSAP editor, player, timeline and menu, and slot 8
+          is B-roll downloads. Kaggle is represented once.
+        </p>
+        <p>
+          A connected audio sample peak at or above 1.0 (0 dBFS) flags clipping
+          red independently of score. Non-clipping audio does not prove good
+          overall performance. The preview cannot detect actual clipping without
+          an audio adapter.
+        </p>
+        <p>
+          Volume: drag or use arrow keys; Shift gives fine adjustment. Home/End
+          choose limits. Double-click balance or press 0, Enter or Space to
+          centre. Power is not connected to audio yet. Reduced motion is
+          supported.
+        </p>
+        <p>
+          Storage is local to this browser and origin, not the vault. Do not
+          enter secrets in todos. Clearing site data deletes saved entries. See
+          the <a href="/manual.md">full manual</a> for scoring and integration.
+        </p>
+      </details>
       <p class="note">
         Interactive GSAP overlays. Audio engine connection pending; these
         controls do not change Windows sound.
