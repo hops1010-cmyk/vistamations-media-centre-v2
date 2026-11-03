@@ -9,6 +9,7 @@ Design steward: Cody. Theme/skin design handoff: Stef; no message has been sent 
 - [Product, functions and interaction design](DESIGN.md)
 - [Architecture, project model and implementation handoff](ARCHITECTURE.md)
 - [Master volume, balance, power and EQ — first design priority](MASTER-AMP-DESIGN.md)
+- [Audio Centre v2 — Merlin, Elite and Ultimate shared-base architecture](AUDIO-CENTRE-SERIES-DESIGN.md)
 - [Backend responsibilities, endpoints and offline operation](BACKEND-DESIGN.md)
 - [Bento, storage indexing, Git restores and cross-platform maintenance](STORAGE-AND-REPO-DESIGN.md)
 - [Skin-matched motion plugin, source snippets and Sisyphus motif](MOTION-PLUGIN-DESIGN.md)

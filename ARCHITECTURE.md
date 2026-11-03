@@ -2,6 +2,8 @@
 
 Status: design proposal, not implemented or validated runtime behaviour. Fresh initiative; no v1 migration/reuse assumption.
 
+Audio Centre series: [Merlin, Elite and Ultimate](AUDIO-CENTRE-SERIES-DESIGN.md) share the same base model, project format and core operations. Proposed tier extensions use configuration/modules within this application rather than separate repositories. Features, functions, processes, operators and structure are documented as distinct branches there. Only the separately authorized retro amp preview is currently implemented.
+
 ## Boundaries
 
 ```mermaid
